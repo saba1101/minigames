@@ -1,0 +1,426 @@
+@font-face {
+  font-family: "pixel";
+  src: url("../assets/fonts/I-pixel-u.ttf");
+}
+@font-face {
+  font-family: "luckiest";
+  src: url("../assets/fonts/LuckiestGuy.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.7vw;
+}
+
+body {
+  background: #1b1b22;
+}
+body main section.middle-wrapper {
+  width: auto;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  margin: auto;
+  padding: 0 1.875rem;
+  overflow: hidden;
+}
+body main section.middle-wrapper > .mini-games-head {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+body main section.middle-wrapper > .mini-games-head > h1 {
+  width: fit-content;
+  font-family: "luckiest";
+  font-size: 7.5rem;
+  font-weight: 100;
+  filter: drop-shadow(0.5rem 0.5rem 0.0625rem #672ee1);
+  margin: 2.5rem auto;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.3125rem;
+  user-select: none;
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p {
+  color: #f4ff07;
+  position: relative;
+  cursor: pointer;
+}
+@keyframes bounceTitle {
+  0%, 100% {
+    transform: none;
+  }
+  30% {
+    transform: translateY(-0.9375rem) rotate(-2deg) scale(1.05);
+  }
+  60% {
+    transform: translateY(0.9375rem) rotate(2deg);
+  }
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p.active {
+  animation: linear bounceTitle 0.8s;
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p.default-logo {
+  color: #ffffff;
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p:first-child {
+  animation-delay: 0.2s;
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p:nth-child(2) {
+  animation-delay: 0.25s;
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p:nth-child(3) {
+  animation-delay: 0.3s;
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p:nth-child(4) {
+  animation-delay: 0.35s;
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p:nth-child(5) {
+  animation-delay: 0.4s;
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p:nth-child(6) {
+  animation-delay: 0.45s;
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p:nth-child(7) {
+  animation-delay: 0.5s;
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p:nth-child(8) {
+  animation-delay: 0.55s;
+}
+body main section.middle-wrapper > .mini-games-head > h1 > p:nth-child(9) {
+  animation-delay: 0.65s;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper {
+  width: 100%;
+  margin-top: 5.625rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 3.25rem 5.9375rem;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container {
+  width: 20.25rem;
+  height: 23.125rem;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 0.9375rem;
+  position: relative;
+  cursor: pointer;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container .inner-components {
+  transform-style: preserve-3d;
+  transform: perspective(31.25rem);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container .inner-components:hover .title {
+  transform: translateZ(9.375rem) scale(0.4) translateY(-5.3125rem);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container .title {
+  user-select: none;
+  pointer-events: none;
+  z-index: 5;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 2.5rem;
+  font-family: "luckiest";
+  color: #ffffff;
+  font-size: 5rem;
+  letter-spacing: 0.3125rem;
+  filter: drop-shadow(0.5rem 0.5rem 0.3125rem #672ee1);
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform: translateZ(90px) scale(0.7) translateY(-35px);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.hilo-container .hilo-components {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.hilo-container .hilo-components > img {
+  position: absolute;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.hilo-container .hilo-components .hilo-cards {
+  width: 20.75rem;
+  left: 0;
+  bottom: -1.25rem;
+  transform: translateZ(5rem) scale(0.78);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.dino-container .dino-components {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.dino-container .dino-components > img {
+  position: absolute;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.dino-container .dino-components .dinosaur {
+  position: relative;
+  width: 18.75rem;
+  left: -1.875rem;
+  top: 0rem;
+  transform: translateZ(5rem) scale(0.78);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.dino-container .dino-components .cactus {
+  width: 5.75rem;
+  bottom: 1.25rem;
+  right: 1.875rem;
+  z-index: -1;
+  transform: translateZ(5rem) scale(0.7);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.dice-container > .dice-components {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.dice-container > .dice-components > img {
+  position: absolute;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.dice-container > .dice-components > img.dice-cube {
+  width: 25.0625rem;
+  top: 0.3125rem;
+  right: -4.5rem;
+  transform: translateZ(5rem) scale(0.7);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.chicken-container > .chicken-components {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.chicken-container > .chicken-components > .chicken-title {
+  font-size: 3.75rem;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.chicken-container > .chicken-components > img {
+  position: absolute;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.chicken-container > .chicken-components > img.chicken-dinner {
+  width: 25rem;
+  top: -3.125rem;
+  right: -5.5rem;
+  transform: translateZ(5rem) scale(0.7);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.plinko-container > .plinko-components {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.plinko-container > .plinko-components > img {
+  position: absolute;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.plinko-container > .plinko-components > img.plinko-pyramid {
+  width: 25rem;
+  left: -2.5rem;
+  top: 0;
+  transform: translateZ(5rem) scale(0.78);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.keno-container > .keno-components {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.keno-container > .keno-components > img {
+  position: absolute;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.keno-container > .keno-components > img:nth-child(2) {
+  width: 5.6875rem;
+  top: 1rem;
+  left: 2rem;
+  z-index: -3;
+  transform: translateZ(5rem) scale(0.7);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.keno-container > .keno-components > img:nth-child(3) {
+  width: 9.875rem;
+  left: 0;
+  bottom: 4.125rem;
+  z-index: 2;
+  transform: translateZ(85px) scale(0.8);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container.keno-container > .keno-components > img:nth-child(4) {
+  width: 18.1875rem;
+  z-index: -2;
+  right: 0;
+  top: 0.65rem;
+  transform: translateZ(80px) scale(0.8);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container:hover > .play-overlay {
+  top: 0;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container:hover > .play-overlay .play-btn {
+  animation: btn-bounce 1s ease;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container > .game-bg-wrapper {
+  width: 100%;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container > .game-bg-wrapper > img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container > .play-overlay {
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  position: relative;
+  transition: ease 0.5s;
+  z-index: 10 !important;
+  pointer-events: none;
+  transform-style: preserve-3d;
+  transform: perspective(31.25rem);
+}
+body main section.middle-wrapper > .mini-games-content-wrapper > .game-container > .play-overlay > .play-btn {
+  width: 12.25rem;
+  height: 5.25rem;
+  background: linear-gradient(110deg, #02a1f9, #29f19c);
+  border: none;
+  border-radius: 2.3125rem;
+  outline: none;
+  cursor: pointer;
+  font-size: 2.625rem;
+  color: #ffffff;
+  font-family: "pixel";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 8.375rem;
+  z-index: 11 !important;
+}
+@keyframes btn-bounce {
+  0%, 100%, 20%, 50%, 80% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-1.875rem);
+  }
+  60% {
+    transform: translateY(-0.9375rem);
+  }
+}
+body main .bg-component-wrapper {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+body main .bg-component-wrapper > img {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+}
+body main .bg-component-wrapper > .bg-gradient {
+  width: 75.125rem;
+  height: 75.875rem;
+  position: absolute;
+  background-image: radial-gradient(#573dc0, #302070, transparent, transparent);
+  left: 50%;
+  top: 50%;
+  opacity: 0.6;
+  transform: translate(-50%, -50%);
+}
+@keyframes bg_gradient {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+body main .bg-component-wrapper .cube_lime {
+  width: 100%;
+  top: -1.25rem;
+  overflow: hidden;
+  left: 0;
+  animation: linear 120s bg infinite alternate;
+}
+@keyframes bg {
+  from {
+    transform: rotate(360deg) translateY(-13.125rem);
+  }
+  to {
+    transform: rotate(0) translateY(0);
+  }
+}
+body main .bg-component-wrapper .cube_lime2 {
+  width: 100%;
+  top: -12.25rem;
+  overflow: hidden;
+  left: 0;
+  animation: linear 120s bg2 infinite alternate;
+}
+@keyframes bg2 {
+  from {
+    transform: rotate(0) translateY(0);
+    opacity: 0.6;
+  }
+  to {
+    transform: scale(1.1) rotate(160deg) translateY(-13.125rem);
+    opacity: 1;
+  }
+}
+body main .bg-component-wrapper .cube_purple {
+  width: 100%;
+  left: 0;
+  top: 0.625rem;
+  animation: linear 120s bg infinite alternate;
+}
+body main .bg-component-wrapper .cube_purple2 {
+  width: 100%;
+  left: 0;
+  top: 0.625rem;
+  animation: linear 120s bg3 infinite alternate;
+}
+@keyframes bg3 {
+  from {
+    transform: rotate(0) translateY(0);
+    opacity: 0.6;
+  }
+  to {
+    transform: scale(1.1) rotate(30deg) translateY(-13.125rem);
+    opacity: 1;
+  }
+}
+body main .bg-component-wrapper .cube_red {
+  width: 100%;
+  top: 0;
+  left: 0;
+  animation: linear 120s bg infinite alternate;
+}
+body main .bg-component-wrapper .cube_red2 {
+  width: 100%;
+  top: 0;
+  left: 0;
+  animation: linear 120s bg infinite alternate;
+}
+
+/*# sourceMappingURL=main.css.map */
