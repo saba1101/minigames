@@ -37,28 +37,4 @@
 // tilt.tilt.destroy.call(tilt)
 
 
-    function destroyTilt(){
-        let customWidth = 840;
-        const tilt = $('.game-container, .inner-components').tilt();
-        if($(window).width() < customWidth){
-            tilt.tilt.destroy.call(tilt)
-            console.log("%cTILT JS is Destroyed", "color:red; font-size: 13px; font-weight:700");
-        }   
-        else{
-            console.log("%cTILT JS is active", "color:green; font-size: 13px; font-weight:700 ");
-        }
-    }
-
-    destroyTilt();
-
-    $(window).resize(function(){
-        let customWidth = 840;
-        const tilt = $('.game-container, .inner-components').tilt();
-        if($(window).width() < customWidth){
-            tilt.tilt.destroy.call(tilt)
-            console.log("%cTILT JS is Destroyed", "color:red; font-size: 13px; font-weight:700");
-        }   
-        else{
-            console.log("%cTILT JS is active", "color:green; font-size: 13px; font-weight:700 ");
-        }
-    })
+   
