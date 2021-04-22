@@ -64,3 +64,8 @@ $(window).resize(function(){
 })
 
 
+$('.game-container').on("touchstart",function(){
+    $(this).css({transform:"translateY(50px)"});
+}).on('touchend',function(){
+    $(this).css({transform:"translateY(0)"});
+})
