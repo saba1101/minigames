@@ -39,16 +39,11 @@ body{
                 top: 0;
                 margin: auto;
                 padding: 0 1.875rem;
-                overflow: hidden;
+                // overflow: hidden;  //temp
                 & > .mini-games-head{
                     width: 100%;
                     text-align: center;
                     position: relative;
-
-                    // & > img{
-                    //     width: 41.5625rem;
-                    //     margin-top: 2.5rem;
-                    // }
 
                     & > h1{
                         width: fit-content;
@@ -56,7 +51,7 @@ body{
                         font-family: 'luckiest';
                         font-size: 7.5rem;
                         font-weight: 100;
-                        filter: drop-shadow(.5rem .5rem 0.0625rem #672ee1);
+                        filter: drop-shadow(0.5rem 0.5rem 0.0625rem #672ee1);
                         margin: 2.5rem auto;
                         display: flex;
                         justify-content: center;
@@ -64,9 +59,8 @@ body{
                         user-select: none;
 
                         &:hover > p{
+                            animation: linear bounceTitle .8s;
                             // animation: linear bounceTitle .8s;
-                            // animation: linear bounceTitle .8s;
-                            // transform:translateY(-1.5625rem) rotate(-2deg);
                         }
 
                         &:not(:hover){
@@ -146,8 +140,9 @@ body{
                 & > .mini-games-content-wrapper{
                     width: 100%;
                     margin-top: 5.625rem;
+                    padding: 2.5rem 0;
                     display: grid;
-                    grid-template-columns: auto auto auto;
+                    grid-template-columns: auto auto;
                     justify-content: center;
                     align-items: center;
                     grid-gap: 3.25rem 5.9375rem;
@@ -191,9 +186,9 @@ body{
                             color: #ffffff;
                             font-size: 5rem;
                             letter-spacing: 0.3125rem;
-                            filter: drop-shadow(.5rem .5rem 0.3125rem #672ee1);
+                            filter: drop-shadow(0.5rem 0.5rem 0.3125rem #672ee1);
                             transition: all 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940);
-                            transform: translateZ(90px) scale(.7) translateY(-35px);
+                            transform: translateZ(5.625rem) scale(.7) translateY(-2.1875rem);
 
                         }
 
@@ -361,15 +356,15 @@ body{
                                         left: 0;
                                         bottom: 4.125rem;
                                         z-index: 2;
-                                        transform: translateZ(85px) scale(.8);
+                                        transform: translateZ(5.3125rem) scale(.8);
 
                                     }
                                     &:nth-child(4){
                                         width:18.1875rem;
                                         z-index: -2;
                                         right: 0;
-                                        top: .65rem;
-                                        transform: translateZ(80px) scale(.8);
+                                        top: 0.65rem;
+                                        transform: translateZ(5rem) scale(.8);
 
                                     }
                                 }
@@ -386,8 +381,8 @@ body{
 
                         & > .game-bg-wrapper{
                             width: 100%;
-
-
+                            height: 100%;
+                            
                             & > img{
                                 width: 100%;
                                 position: absolute;
@@ -470,7 +465,7 @@ body{
                 position: absolute;
                 pointer-events: none;
                 user-select: none;
-
+                height: 100%;
             }
 
             & > .bg-gradient{
@@ -479,22 +474,14 @@ body{
                 position: absolute;
                 background-image: radial-gradient(#573dc0, #302070, transparent, transparent);
                 left: 50%;
-                top: 50%;
+                // top: 50%;
                 opacity: .6;
-                transform: translate(-50%, -50%);
-                // animation: linear bg_gradient 6s infinite alternate;
-                @keyframes bg_gradient {
-                    from{
-                        transform: scale(0);
-                    }
-                    to{
-                        transform: scale(1.5);
-                    }
-                }
+                transform: translate(-50%);
+
             }
     
             .cube_lime{
-                width: 100%;
+                // width: 100%;
                 top: -1.25rem;
                 overflow: hidden;
                 left: 0;
@@ -514,7 +501,7 @@ body{
             }
 
             .cube_lime2{
-                width: 100%;
+                // width: 100%;
                 top: -12.25rem;
                 overflow: hidden;
                 left: 0;
@@ -535,15 +522,25 @@ body{
             }
     
             .cube_purple{
-                width: 100%;
+                // width: 100%;
                 left: 0;
                 top: 0.625rem;
                 animation: linear 120s bg infinite alternate;
 
+                @keyframes bg {
+                    from{
+                        transform:  rotate(360deg) translateY(-0.625rem);
+
+                    }
+                    to{
+                        transform:  rotate(0) translateY(0)
+                    }
+                }
+
             }
 
             .cube_purple2{
-                width: 100%;
+                // width: 100%;
                 left: 0;
                 top: 0.625rem;
 
@@ -556,7 +553,7 @@ body{
 
                     }
                     to{
-                        transform: scale(1.1) rotate(30deg) translateY(-13.125rem);
+                        transform: scale(1.1) rotate(-230deg) translateY(-13.125rem);
                         opacity: 1;
 
                     }
@@ -565,7 +562,7 @@ body{
             }
     
             .cube_red{
-                width: 100%;
+                // width: 100%;
                 top: 0;
                 left: 0;
                 animation: linear 120s bg infinite alternate;
@@ -573,7 +570,7 @@ body{
             }
 
             .cube_red2{
-                width: 100%;
+                // width: 100%;
                 top: 0;
                 left: 0;
                 animation: linear 120s bg infinite alternate;
@@ -581,3 +578,58 @@ body{
         }
     }
 }
+
+
+@media screen and(max-width:41.75rem) {
+    html{
+        font-size: 2vw;
+    }
+
+    body{
+        background: $bgColor;
+    
+        main{
+    
+            section{
+    
+                &.middle-wrapper{
+
+                    .mini-games-content-wrapper{
+                        grid-template-columns: auto auto;
+                        grid-gap: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(max-width:13.75rem) {
+    html{
+        font-size: 3vw;
+    }
+
+    body{
+    
+        main{
+    
+            section{
+    
+                &.middle-wrapper{
+                    & > .mini-games-head{
+
+                        & > h1{
+                            font-size: 15vw;
+                        }
+                    }
+                    .mini-games-content-wrapper{
+                        grid-template-columns: auto ;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
