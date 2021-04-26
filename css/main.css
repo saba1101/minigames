@@ -336,6 +336,3312 @@ body main .bg-component-wrapper {
   right: 0;
   overflow: hidden;
 }
+body main .bg-component-wrapper .left, body main .bg-component-wrapper .right {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(1) {
+  animation: linear 5s bg241 infinite alternate;
+  animation-delay: 53ms;
+  transform: translate3d(4.0625rem, 0.375rem, 0.625rem) scale(0.2);
+}
+@keyframes bg241 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(2) {
+  animation: linear 5s bg242 infinite alternate;
+  animation-delay: 8ms;
+  transform: translate3d(4.4375rem, 0.0625rem, 0.125rem) scale(0.2);
+}
+@keyframes bg242 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(3) {
+  animation: linear 5s bg243 infinite alternate;
+  animation-delay: 79ms;
+  transform: translate3d(5.9375rem, 1rem, 0.125rem) scale(0.2);
+}
+@keyframes bg243 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(4) {
+  animation: linear 5s bg244 infinite alternate;
+  animation-delay: 322ms;
+  transform: translate3d(1.5625rem, 0.4375rem, 0.0625rem) scale(0.2);
+}
+@keyframes bg244 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(5) {
+  animation: linear 5s bg245 infinite alternate;
+  animation-delay: 199ms;
+  transform: translate3d(0.5rem, 0.4375rem, 0.1875rem) scale(0.2);
+}
+@keyframes bg245 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(6) {
+  animation: linear 5s bg246 infinite alternate;
+  animation-delay: 264ms;
+  transform: translate3d(4.125rem, 0.375rem, 0.1875rem) scale(0.2);
+}
+@keyframes bg246 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(7) {
+  animation: linear 5s bg247 infinite alternate;
+  animation-delay: 223ms;
+  transform: translate3d(2.875rem, 0.125rem, 0.5625rem) scale(0.2);
+}
+@keyframes bg247 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(8) {
+  animation: linear 5s bg248 infinite alternate;
+  animation-delay: 61ms;
+  transform: translate3d(2.8125rem, 0.4375rem, 0.25rem) scale(0.2);
+}
+@keyframes bg248 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(9) {
+  animation: linear 5s bg249 infinite alternate;
+  animation-delay: 87ms;
+  transform: translate3d(3.5625rem, 0.1875rem, 0.375rem) scale(0.2);
+}
+@keyframes bg249 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(10) {
+  animation: linear 5s bg2410 infinite alternate;
+  animation-delay: 122ms;
+  transform: translate3d(1.1875rem, 0.3125rem, 0.5625rem) scale(0.2);
+}
+@keyframes bg2410 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(11) {
+  animation: linear 5s bg2411 infinite alternate;
+  animation-delay: 498ms;
+  transform: translate3d(1.125rem, 0.3125rem, 0.1875rem) scale(0.2);
+}
+@keyframes bg2411 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(12) {
+  animation: linear 5s bg2412 infinite alternate;
+  animation-delay: 383ms;
+  transform: translate3d(4.625rem, 0.0625rem, 0.625rem) scale(0.2);
+}
+@keyframes bg2412 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(13) {
+  animation: linear 5s bg2413 infinite alternate;
+  animation-delay: 50ms;
+  transform: translate3d(4.0625rem, 0.3125rem, 0.5rem) scale(0.2);
+}
+@keyframes bg2413 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(14) {
+  animation: linear 5s bg2414 infinite alternate;
+  animation-delay: 230ms;
+  transform: translate3d(3.75rem, 0.4375rem, 0.375rem) scale(0.2);
+}
+@keyframes bg2414 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(15) {
+  animation: linear 5s bg2415 infinite alternate;
+  animation-delay: 275ms;
+  transform: translate3d(1.3125rem, 0.4375rem, 0.5rem) scale(0.2);
+}
+@keyframes bg2415 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(16) {
+  animation: linear 5s bg2416 infinite alternate;
+  animation-delay: 152ms;
+  transform: translate3d(1.5625rem, 0.1875rem, 0.625rem) scale(0.2);
+}
+@keyframes bg2416 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(17) {
+  animation: linear 5s bg2417 infinite alternate;
+  animation-delay: 56ms;
+  transform: translate3d(6.1875rem, 1.125rem, 0.5625rem) scale(0.2);
+}
+@keyframes bg2417 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(18) {
+  animation: linear 5s bg2418 infinite alternate;
+  animation-delay: 75ms;
+  transform: translate3d(1.25rem, 0.9375rem, 0.375rem) scale(0.2);
+}
+@keyframes bg2418 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(19) {
+  animation: linear 5s bg2419 infinite alternate;
+  animation-delay: 199ms;
+  transform: translate3d(0.5625rem, 0.625rem, 0.25rem) scale(0.2);
+}
+@keyframes bg2419 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(20) {
+  animation: linear 5s bg2420 infinite alternate;
+  animation-delay: 483ms;
+  transform: translate3d(4rem, 0.5625rem, 0.6875rem) scale(0.2);
+}
+@keyframes bg2420 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(21) {
+  animation: linear 5s bg2421 infinite alternate;
+  animation-delay: 68ms;
+  transform: translate3d(1.8125rem, 0.625rem, 0.375rem) scale(0.2);
+}
+@keyframes bg2421 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(22) {
+  animation: linear 5s bg2422 infinite alternate;
+  animation-delay: 260ms;
+  transform: translate3d(2.875rem, 0.0625rem, 0.125rem) scale(0.2);
+}
+@keyframes bg2422 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(23) {
+  animation: linear 5s bg2423 infinite alternate;
+  animation-delay: 296ms;
+  transform: translate3d(5.25rem, 0.6875rem, 0.125rem) scale(0.2);
+}
+@keyframes bg2423 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(24) {
+  animation: linear 5s bg2424 infinite alternate;
+  animation-delay: 183ms;
+  transform: translate3d(0.5rem, 0.25rem, 0.125rem) scale(0.2);
+}
+@keyframes bg2424 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(25) {
+  animation: linear 5s bg2425 infinite alternate;
+  animation-delay: 324ms;
+  transform: translate3d(3.6875rem, 0.875rem, 0.3125rem) scale(0.2);
+}
+@keyframes bg2425 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(26) {
+  animation: linear 5s bg2426 infinite alternate;
+  animation-delay: 93ms;
+  transform: translate3d(4.3125rem, 0.3125rem, 0.125rem) scale(0.2);
+}
+@keyframes bg2426 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(27) {
+  animation: linear 5s bg2427 infinite alternate;
+  animation-delay: 118ms;
+  transform: translate3d(4.5rem, 1.1875rem, 0.5rem) scale(0.2);
+}
+@keyframes bg2427 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(28) {
+  animation: linear 5s bg2428 infinite alternate;
+  animation-delay: 151ms;
+  transform: translate3d(0.6875rem, 0.875rem, 0.0625rem) scale(0.2);
+}
+@keyframes bg2428 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(29) {
+  animation: linear 5s bg2429 infinite alternate;
+  animation-delay: 493ms;
+  transform: translate3d(5.3125rem, 0.375rem, 0.3125rem) scale(0.2);
+}
+@keyframes bg2429 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(30) {
+  animation: linear 5s bg2430 infinite alternate;
+  animation-delay: 285ms;
+  transform: translate3d(3.1875rem, 0.5625rem, 0.6875rem) scale(0.2);
+}
+@keyframes bg2430 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(31) {
+  animation: linear 5s bg2431 infinite alternate;
+  animation-delay: 299ms;
+  transform: translate3d(3.9375rem, 0.375rem, 0.75rem) scale(0.2);
+}
+@keyframes bg2431 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(32) {
+  animation: linear 5s bg2432 infinite alternate;
+  animation-delay: 497ms;
+  transform: translate3d(0.375rem, 0.125rem, 0.3125rem) scale(0.2);
+}
+@keyframes bg2432 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(33) {
+  animation: linear 5s bg2433 infinite alternate;
+  animation-delay: 393ms;
+  transform: translate3d(2.6875rem, 1.0625rem, 0.75rem) scale(0.2);
+}
+@keyframes bg2433 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(34) {
+  animation: linear 5s bg2434 infinite alternate;
+  animation-delay: 50ms;
+  transform: translate3d(4.8125rem, 0.5625rem, 0.375rem) scale(0.2);
+}
+@keyframes bg2434 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(35) {
+  animation: linear 5s bg2435 infinite alternate;
+  animation-delay: 496ms;
+  transform: translate3d(3.9375rem, 1.25rem, 0.6875rem) scale(0.2);
+}
+@keyframes bg2435 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(36) {
+  animation: linear 5s bg2436 infinite alternate;
+  animation-delay: 303ms;
+  transform: translate3d(3.3125rem, 0.4375rem, 0.4375rem) scale(0.2);
+}
+@keyframes bg2436 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(37) {
+  animation: linear 5s bg2437 infinite alternate;
+  animation-delay: 439ms;
+  transform: translate3d(5.625rem, 0.25rem, 0.5625rem) scale(0.2);
+}
+@keyframes bg2437 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(38) {
+  animation: linear 5s bg2438 infinite alternate;
+  animation-delay: 206ms;
+  transform: translate3d(0.0625rem, 1.0625rem, 0.6875rem) scale(0.2);
+}
+@keyframes bg2438 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(39) {
+  animation: linear 5s bg2439 infinite alternate;
+  animation-delay: 405ms;
+  transform: translate3d(0.0625rem, 1rem, 0.5rem) scale(0.2);
+}
+@keyframes bg2439 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(40) {
+  animation: linear 5s bg2440 infinite alternate;
+  animation-delay: 402ms;
+  transform: translate3d(2.0625rem, 0.625rem, 0.5rem) scale(0.2);
+}
+@keyframes bg2440 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(41) {
+  animation: linear 5s bg2441 infinite alternate;
+  animation-delay: 33ms;
+  transform: translate3d(2.875rem, 1rem, 0.6875rem) scale(0.2);
+}
+@keyframes bg2441 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(42) {
+  animation: linear 5s bg2442 infinite alternate;
+  animation-delay: 406ms;
+  transform: translate3d(1.625rem, 0.375rem, 0.25rem) scale(0.2);
+}
+@keyframes bg2442 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(43) {
+  animation: linear 5s bg2443 infinite alternate;
+  animation-delay: 150ms;
+  transform: translate3d(0.75rem, 0.25rem, 0.3125rem) scale(0.2);
+}
+@keyframes bg2443 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(44) {
+  animation: linear 5s bg2444 infinite alternate;
+  animation-delay: 393ms;
+  transform: translate3d(0.3125rem, 0.375rem, 0.375rem) scale(0.2);
+}
+@keyframes bg2444 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(45) {
+  animation: linear 5s bg2445 infinite alternate;
+  animation-delay: 377ms;
+  transform: translate3d(1.6875rem, 1.25rem, 0.75rem) scale(0.2);
+}
+@keyframes bg2445 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(46) {
+  animation: linear 5s bg2446 infinite alternate;
+  animation-delay: 198ms;
+  transform: translate3d(3.875rem, 0.125rem, 0.4375rem) scale(0.2);
+}
+@keyframes bg2446 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(47) {
+  animation: linear 5s bg2447 infinite alternate;
+  animation-delay: 325ms;
+  transform: translate3d(1.625rem, 1rem, 0.6875rem) scale(0.2);
+}
+@keyframes bg2447 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(48) {
+  animation: linear 5s bg2448 infinite alternate;
+  animation-delay: 310ms;
+  transform: translate3d(4.25rem, 0.125rem, 0.75rem) scale(0.2);
+}
+@keyframes bg2448 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(49) {
+  animation: linear 5s bg2449 infinite alternate;
+  animation-delay: 492ms;
+  transform: translate3d(5.1875rem, 0.625rem, 0.75rem) scale(0.2);
+}
+@keyframes bg2449 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(50) {
+  animation: linear 5s bg2450 infinite alternate;
+  animation-delay: 235ms;
+  transform: translate3d(2.125rem, 0.375rem, 0.5625rem) scale(0.2);
+}
+@keyframes bg2450 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(51) {
+  animation: linear 5s bg2451 infinite alternate;
+  animation-delay: 134ms;
+  transform: translate3d(1.375rem, 0.125rem, 0.1875rem) scale(0.2);
+}
+@keyframes bg2451 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(52) {
+  animation: linear 5s bg2452 infinite alternate;
+  animation-delay: 494ms;
+  transform: translate3d(5rem, 0.625rem, 0.75rem) scale(0.2);
+}
+@keyframes bg2452 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(53) {
+  animation: linear 5s bg2453 infinite alternate;
+  animation-delay: 375ms;
+  transform: translate3d(2.5rem, 1.25rem, 0.6875rem) scale(0.2);
+}
+@keyframes bg2453 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(54) {
+  animation: linear 5s bg2454 infinite alternate;
+  animation-delay: 330ms;
+  transform: translate3d(2rem, 1.25rem, 0.3125rem) scale(0.2);
+}
+@keyframes bg2454 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(55) {
+  animation: linear 5s bg2455 infinite alternate;
+  animation-delay: 375ms;
+  transform: translate3d(1.75rem, 0.375rem, 0.5rem) scale(0.2);
+}
+@keyframes bg2455 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(56) {
+  animation: linear 5s bg2456 infinite alternate;
+  animation-delay: 5ms;
+  transform: translate3d(6.0625rem, 0.625rem, 0.125rem) scale(0.2);
+}
+@keyframes bg2456 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(57) {
+  animation: linear 5s bg2457 infinite alternate;
+  animation-delay: 258ms;
+  transform: translate3d(4.875rem, 0.9375rem, 0.0625rem) scale(0.2);
+}
+@keyframes bg2457 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(58) {
+  animation: linear 5s bg2458 infinite alternate;
+  animation-delay: 261ms;
+  transform: translate3d(1.3125rem, 0.5rem, 0.75rem) scale(0.2);
+}
+@keyframes bg2458 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(59) {
+  animation: linear 5s bg2459 infinite alternate;
+  animation-delay: 320ms;
+  transform: translate3d(1rem, 0.9375rem, 0.6875rem) scale(0.2);
+}
+@keyframes bg2459 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(60) {
+  animation: linear 5s bg2460 infinite alternate;
+  animation-delay: 265ms;
+  transform: translate3d(5.8125rem, 0.5rem, 0.5625rem) scale(0.2);
+}
+@keyframes bg2460 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(61) {
+  animation: linear 5s bg2461 infinite alternate;
+  animation-delay: 93ms;
+  transform: translate3d(0.4375rem, 0.375rem, 0.25rem) scale(0.2);
+}
+@keyframes bg2461 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(62) {
+  animation: linear 5s bg2462 infinite alternate;
+  animation-delay: 158ms;
+  transform: translate3d(0.3125rem, 1.125rem, 0.125rem) scale(0.2);
+}
+@keyframes bg2462 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(63) {
+  animation: linear 5s bg2463 infinite alternate;
+  animation-delay: 450ms;
+  transform: translate3d(3.125rem, 0.3125rem, 0.75rem) scale(0.2);
+}
+@keyframes bg2463 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(64) {
+  animation: linear 5s bg2464 infinite alternate;
+  animation-delay: 411ms;
+  transform: translate3d(0.1875rem, 0.9375rem, 0.1875rem) scale(0.2);
+}
+@keyframes bg2464 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(65) {
+  animation: linear 5s bg2465 infinite alternate;
+  animation-delay: 165ms;
+  transform: translate3d(6.125rem, 0.5625rem, 0.5625rem) scale(0.2);
+}
+@keyframes bg2465 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(66) {
+  animation: linear 5s bg2466 infinite alternate;
+  animation-delay: 402ms;
+  transform: translate3d(3.75rem, 1.0625rem, 0.1875rem) scale(0.2);
+}
+@keyframes bg2466 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(67) {
+  animation: linear 5s bg2467 infinite alternate;
+  animation-delay: 192ms;
+  transform: translate3d(1.375rem, 0.4375rem, 0.0625rem) scale(0.2);
+}
+@keyframes bg2467 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(68) {
+  animation: linear 5s bg2468 infinite alternate;
+  animation-delay: 91ms;
+  transform: translate3d(0.3125rem, 1.125rem, 0.75rem) scale(0.2);
+}
+@keyframes bg2468 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(69) {
+  animation: linear 5s bg2469 infinite alternate;
+  animation-delay: 280ms;
+  transform: translate3d(0.9375rem, 0.0625rem, 0.3125rem) scale(0.2);
+}
+@keyframes bg2469 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(70) {
+  animation: linear 5s bg2470 infinite alternate;
+  animation-delay: 319ms;
+  transform: translate3d(3.4375rem, 1rem, 0.25rem) scale(0.2);
+}
+@keyframes bg2470 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(71) {
+  animation: linear 5s bg2471 infinite alternate;
+  animation-delay: 432ms;
+  transform: translate3d(4.5rem, 0.5625rem, 0.4375rem) scale(0.2);
+}
+@keyframes bg2471 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(72) {
+  animation: linear 5s bg2472 infinite alternate;
+  animation-delay: 335ms;
+  transform: translate3d(5rem, 0.75rem, 0.1875rem) scale(0.2);
+}
+@keyframes bg2472 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(73) {
+  animation: linear 5s bg2473 infinite alternate;
+  animation-delay: 199ms;
+  transform: translate3d(3.6875rem, 0.125rem, 0.375rem) scale(0.2);
+}
+@keyframes bg2473 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(74) {
+  animation: linear 5s bg2474 infinite alternate;
+  animation-delay: 118ms;
+  transform: translate3d(0.75rem, 0.5rem, 0.25rem) scale(0.2);
+}
+@keyframes bg2474 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(75) {
+  animation: linear 5s bg2475 infinite alternate;
+  animation-delay: 67ms;
+  transform: translate3d(3.625rem, 1rem, 0.5rem) scale(0.2);
+}
+@keyframes bg2475 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(76) {
+  animation: linear 5s bg2476 infinite alternate;
+  animation-delay: 287ms;
+  transform: translate3d(2rem, 1.125rem, 0.75rem) scale(0.2);
+}
+@keyframes bg2476 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(77) {
+  animation: linear 5s bg2477 infinite alternate;
+  animation-delay: 96ms;
+  transform: translate3d(2.25rem, 0.625rem, 0.1875rem) scale(0.2);
+}
+@keyframes bg2477 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(78) {
+  animation: linear 5s bg2478 infinite alternate;
+  animation-delay: 317ms;
+  transform: translate3d(1.75rem, 0.875rem, 0.0625rem) scale(0.2);
+}
+@keyframes bg2478 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(79) {
+  animation: linear 5s bg2479 infinite alternate;
+  animation-delay: 79ms;
+  transform: translate3d(6.1875rem, 0.9375rem, 0.25rem) scale(0.2);
+}
+@keyframes bg2479 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(80) {
+  animation: linear 5s bg2480 infinite alternate;
+  animation-delay: 7ms;
+  transform: translate3d(0.25rem, 0.625rem, 0.375rem) scale(0.2);
+}
+@keyframes bg2480 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(81) {
+  animation: linear 5s bg2481 infinite alternate;
+  animation-delay: 273ms;
+  transform: translate3d(3.9375rem, 0.8125rem, 0.125rem) scale(0.2);
+}
+@keyframes bg2481 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(82) {
+  animation: linear 5s bg2482 infinite alternate;
+  animation-delay: 376ms;
+  transform: translate3d(2.1875rem, 0.5rem, 0.0625rem) scale(0.2);
+}
+@keyframes bg2482 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(83) {
+  animation: linear 5s bg2483 infinite alternate;
+  animation-delay: 262ms;
+  transform: translate3d(3.9375rem, 0.875rem, 0.6875rem) scale(0.2);
+}
+@keyframes bg2483 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(84) {
+  animation: linear 5s bg2484 infinite alternate;
+  animation-delay: 44ms;
+  transform: translate3d(5.5625rem, 0.125rem, 0.5rem) scale(0.2);
+}
+@keyframes bg2484 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(85) {
+  animation: linear 5s bg2485 infinite alternate;
+  animation-delay: 396ms;
+  transform: translate3d(2.6875rem, 0.6875rem, 0.0625rem) scale(0.2);
+}
+@keyframes bg2485 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(86) {
+  animation: linear 5s bg2486 infinite alternate;
+  animation-delay: 412ms;
+  transform: translate3d(5.75rem, 1rem, 0.375rem) scale(0.2);
+}
+@keyframes bg2486 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(87) {
+  animation: linear 5s bg2487 infinite alternate;
+  animation-delay: 418ms;
+  transform: translate3d(4.625rem, 1.25rem, 0.3125rem) scale(0.2);
+}
+@keyframes bg2487 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(88) {
+  animation: linear 5s bg2488 infinite alternate;
+  animation-delay: 218ms;
+  transform: translate3d(2.3125rem, 0.6875rem, 0.1875rem) scale(0.2);
+}
+@keyframes bg2488 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(89) {
+  animation: linear 5s bg2489 infinite alternate;
+  animation-delay: 70ms;
+  transform: translate3d(5.375rem, 0.875rem, 0.125rem) scale(0.2);
+}
+@keyframes bg2489 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(90) {
+  animation: linear 5s bg2490 infinite alternate;
+  animation-delay: 212ms;
+  transform: translate3d(2.3125rem, 0.9375rem, 0.0625rem) scale(0.2);
+}
+@keyframes bg2490 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(91) {
+  animation: linear 5s bg2491 infinite alternate;
+  animation-delay: 216ms;
+  transform: translate3d(2.5rem, 0.5rem, 0.375rem) scale(0.2);
+}
+@keyframes bg2491 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(92) {
+  animation: linear 5s bg2492 infinite alternate;
+  animation-delay: 197ms;
+  transform: translate3d(1.4375rem, 1.25rem, 0.1875rem) scale(0.2);
+}
+@keyframes bg2492 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(93) {
+  animation: linear 5s bg2493 infinite alternate;
+  animation-delay: 474ms;
+  transform: translate3d(3.0625rem, 0.375rem, 0.5625rem) scale(0.2);
+}
+@keyframes bg2493 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(94) {
+  animation: linear 5s bg2494 infinite alternate;
+  animation-delay: 301ms;
+  transform: translate3d(4.125rem, 0.75rem, 0.5rem) scale(0.2);
+}
+@keyframes bg2494 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(95) {
+  animation: linear 5s bg2495 infinite alternate;
+  animation-delay: 355ms;
+  transform: translate3d(3.75rem, 0.75rem, 0.4375rem) scale(0.2);
+}
+@keyframes bg2495 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(96) {
+  animation: linear 5s bg2496 infinite alternate;
+  animation-delay: 277ms;
+  transform: translate3d(4.0625rem, 1.25rem, 0.0625rem) scale(0.2);
+}
+@keyframes bg2496 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(97) {
+  animation: linear 5s bg2497 infinite alternate;
+  animation-delay: 45ms;
+  transform: translate3d(5.8125rem, 1.0625rem, 0.1875rem) scale(0.2);
+}
+@keyframes bg2497 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(98) {
+  animation: linear 5s bg2498 infinite alternate;
+  animation-delay: 372ms;
+  transform: translate3d(1.625rem, 1rem, 0.3125rem) scale(0.2);
+}
+@keyframes bg2498 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(99) {
+  animation: linear 5s bg2499 infinite alternate;
+  animation-delay: 206ms;
+  transform: translate3d(3.875rem, 0.0625rem, 0.3125rem) scale(0.2);
+}
+@keyframes bg2499 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .left .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .left .bg-components:nth-child(100) {
+  animation: linear 5s bg24100 infinite alternate;
+  animation-delay: 249ms;
+  transform: translate3d(4.25rem, 0.8125rem, 0.25rem) scale(0.2);
+}
+@keyframes bg24100 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: translate3d(0, 0, 1.25rem);
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(1) {
+  animation: linear 3s bg241 infinite;
+  animation-delay: 323ms;
+  transform: translate3d(5.625rem, 6.375rem, 20.4375rem) scale(0.2);
+}
+@keyframes bg241 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(2) {
+  animation: linear 3s bg242 infinite;
+  animation-delay: 136ms;
+  transform: translate3d(8.9375rem, 12.375rem, 4.0625rem) scale(0.2);
+}
+@keyframes bg242 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(3) {
+  animation: linear 3s bg243 infinite;
+  animation-delay: 349ms;
+  transform: translate3d(6.1875rem, 4.8125rem, 14rem) scale(0.2);
+}
+@keyframes bg243 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(4) {
+  animation: linear 3s bg244 infinite;
+  animation-delay: 322ms;
+  transform: translate3d(5.875rem, 3.5625rem, 27.5625rem) scale(0.2);
+}
+@keyframes bg244 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(5) {
+  animation: linear 3s bg245 infinite;
+  animation-delay: 130ms;
+  transform: translate3d(1.375rem, 11.3125rem, 17.9375rem) scale(0.2);
+}
+@keyframes bg245 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(6) {
+  animation: linear 3s bg246 infinite;
+  animation-delay: 193ms;
+  transform: translate3d(3.25rem, 13.375rem, 8.75rem) scale(0.2);
+}
+@keyframes bg246 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(7) {
+  animation: linear 3s bg247 infinite;
+  animation-delay: 49ms;
+  transform: translate3d(6.875rem, 5.0625rem, 11.625rem) scale(0.2);
+}
+@keyframes bg247 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(8) {
+  animation: linear 3s bg248 infinite;
+  animation-delay: 449ms;
+  transform: translate3d(3.75rem, 8.625rem, 31.1875rem) scale(0.2);
+}
+@keyframes bg248 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(9) {
+  animation: linear 3s bg249 infinite;
+  animation-delay: 343ms;
+  transform: translate3d(3.5rem, 9.8125rem, 2.75rem) scale(0.2);
+}
+@keyframes bg249 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(10) {
+  animation: linear 3s bg2410 infinite;
+  animation-delay: 259ms;
+  transform: translate3d(7.125rem, 2.5625rem, 5rem) scale(0.2);
+}
+@keyframes bg2410 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(11) {
+  animation: linear 3s bg2411 infinite;
+  animation-delay: 300ms;
+  transform: translate3d(4.5rem, 6.6875rem, 24.375rem) scale(0.2);
+}
+@keyframes bg2411 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(12) {
+  animation: linear 3s bg2412 infinite;
+  animation-delay: 239ms;
+  transform: translate3d(4.625rem, 4.25rem, 12.75rem) scale(0.2);
+}
+@keyframes bg2412 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(13) {
+  animation: linear 3s bg2413 infinite;
+  animation-delay: 93ms;
+  transform: translate3d(3.6875rem, 2.375rem, 8.8125rem) scale(0.2);
+}
+@keyframes bg2413 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(14) {
+  animation: linear 3s bg2414 infinite;
+  animation-delay: 472ms;
+  transform: translate3d(2.375rem, 0.625rem, 6.25rem) scale(0.2);
+}
+@keyframes bg2414 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(15) {
+  animation: linear 3s bg2415 infinite;
+  animation-delay: 348ms;
+  transform: translate3d(3rem, 9.125rem, 31.25rem) scale(0.2);
+}
+@keyframes bg2415 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(16) {
+  animation: linear 3s bg2416 infinite;
+  animation-delay: 180ms;
+  transform: translate3d(6.5625rem, 2.75rem, 23.6875rem) scale(0.2);
+}
+@keyframes bg2416 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(17) {
+  animation: linear 3s bg2417 infinite;
+  animation-delay: 494ms;
+  transform: translate3d(0.75rem, 6.6875rem, 13.0625rem) scale(0.2);
+}
+@keyframes bg2417 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(18) {
+  animation: linear 3s bg2418 infinite;
+  animation-delay: 448ms;
+  transform: translate3d(8.5625rem, 11.8125rem, 22.9375rem) scale(0.2);
+}
+@keyframes bg2418 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(19) {
+  animation: linear 3s bg2419 infinite;
+  animation-delay: 138ms;
+  transform: translate3d(4rem, 8.75rem, 0.25rem) scale(0.2);
+}
+@keyframes bg2419 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(20) {
+  animation: linear 3s bg2420 infinite;
+  animation-delay: 223ms;
+  transform: translate3d(3.4375rem, 3.375rem, 30.9375rem) scale(0.2);
+}
+@keyframes bg2420 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(21) {
+  animation: linear 3s bg2421 infinite;
+  animation-delay: 213ms;
+  transform: translate3d(0.5rem, 9.1875rem, 16.25rem) scale(0.2);
+}
+@keyframes bg2421 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(22) {
+  animation: linear 3s bg2422 infinite;
+  animation-delay: 457ms;
+  transform: translate3d(6.625rem, 7.4375rem, 31.25rem) scale(0.2);
+}
+@keyframes bg2422 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(23) {
+  animation: linear 3s bg2423 infinite;
+  animation-delay: 243ms;
+  transform: translate3d(1.375rem, 9.5625rem, 7rem) scale(0.2);
+}
+@keyframes bg2423 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(24) {
+  animation: linear 3s bg2424 infinite;
+  animation-delay: 140ms;
+  transform: translate3d(4.0625rem, 0.4375rem, 29.5rem) scale(0.2);
+}
+@keyframes bg2424 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(25) {
+  animation: linear 3s bg2425 infinite;
+  animation-delay: 93ms;
+  transform: translate3d(3.3125rem, 13.375rem, 4.875rem) scale(0.2);
+}
+@keyframes bg2425 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(26) {
+  animation: linear 3s bg2426 infinite;
+  animation-delay: 463ms;
+  transform: translate3d(7.6875rem, 0.625rem, 15.5625rem) scale(0.2);
+}
+@keyframes bg2426 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(27) {
+  animation: linear 3s bg2427 infinite;
+  animation-delay: 450ms;
+  transform: translate3d(3.4375rem, 1.6875rem, 1.8125rem) scale(0.2);
+}
+@keyframes bg2427 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(28) {
+  animation: linear 3s bg2428 infinite;
+  animation-delay: 241ms;
+  transform: translate3d(5.375rem, 8.625rem, 27.5rem) scale(0.2);
+}
+@keyframes bg2428 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(29) {
+  animation: linear 3s bg2429 infinite;
+  animation-delay: 289ms;
+  transform: translate3d(8rem, 3.9375rem, 22rem) scale(0.2);
+}
+@keyframes bg2429 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(30) {
+  animation: linear 3s bg2430 infinite;
+  animation-delay: 370ms;
+  transform: translate3d(8.375rem, 12.8125rem, 19.4375rem) scale(0.2);
+}
+@keyframes bg2430 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(31) {
+  animation: linear 3s bg2431 infinite;
+  animation-delay: 178ms;
+  transform: translate3d(1.6875rem, 12.5625rem, 14.75rem) scale(0.2);
+}
+@keyframes bg2431 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(32) {
+  animation: linear 3s bg2432 infinite;
+  animation-delay: 26ms;
+  transform: translate3d(8rem, 7.3125rem, 0.8125rem) scale(0.2);
+}
+@keyframes bg2432 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(33) {
+  animation: linear 3s bg2433 infinite;
+  animation-delay: 311ms;
+  transform: translate3d(7.25rem, 4.5625rem, 30.625rem) scale(0.2);
+}
+@keyframes bg2433 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(34) {
+  animation: linear 3s bg2434 infinite;
+  animation-delay: 270ms;
+  transform: translate3d(7.5625rem, 13.375rem, 24.9375rem) scale(0.2);
+}
+@keyframes bg2434 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(35) {
+  animation: linear 3s bg2435 infinite;
+  animation-delay: 350ms;
+  transform: translate3d(3.0625rem, 11.3125rem, 30.125rem) scale(0.2);
+}
+@keyframes bg2435 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(36) {
+  animation: linear 3s bg2436 infinite;
+  animation-delay: 355ms;
+  transform: translate3d(7.125rem, 11.6875rem, 23.75rem) scale(0.2);
+}
+@keyframes bg2436 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(37) {
+  animation: linear 3s bg2437 infinite;
+  animation-delay: 333ms;
+  transform: translate3d(5.3125rem, 1.125rem, 8.1875rem) scale(0.2);
+}
+@keyframes bg2437 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(38) {
+  animation: linear 3s bg2438 infinite;
+  animation-delay: 391ms;
+  transform: translate3d(8.4375rem, 3.625rem, 12.125rem) scale(0.2);
+}
+@keyframes bg2438 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(39) {
+  animation: linear 3s bg2439 infinite;
+  animation-delay: 290ms;
+  transform: translate3d(4.9375rem, 9.75rem, 10.75rem) scale(0.2);
+}
+@keyframes bg2439 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(40) {
+  animation: linear 3s bg2440 infinite;
+  animation-delay: 299ms;
+  transform: translate3d(2.25rem, 4.8125rem, 28.6875rem) scale(0.2);
+}
+@keyframes bg2440 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(41) {
+  animation: linear 3s bg2441 infinite;
+  animation-delay: 165ms;
+  transform: translate3d(1.625rem, 6.25rem, 13.75rem) scale(0.2);
+}
+@keyframes bg2441 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(42) {
+  animation: linear 3s bg2442 infinite;
+  animation-delay: 48ms;
+  transform: translate3d(3.6875rem, 13rem, 17.8125rem) scale(0.2);
+}
+@keyframes bg2442 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(43) {
+  animation: linear 3s bg2443 infinite;
+  animation-delay: 42ms;
+  transform: translate3d(7.6875rem, 2.8125rem, 25.0625rem) scale(0.2);
+}
+@keyframes bg2443 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(44) {
+  animation: linear 3s bg2444 infinite;
+  animation-delay: 67ms;
+  transform: translate3d(5.0625rem, 12.9375rem, 20.5rem) scale(0.2);
+}
+@keyframes bg2444 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(45) {
+  animation: linear 3s bg2445 infinite;
+  animation-delay: 399ms;
+  transform: translate3d(6.5rem, 9.3125rem, 26.8125rem) scale(0.2);
+}
+@keyframes bg2445 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(46) {
+  animation: linear 3s bg2446 infinite;
+  animation-delay: 6ms;
+  transform: translate3d(2.1875rem, 10.625rem, 28.625rem) scale(0.2);
+}
+@keyframes bg2446 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(47) {
+  animation: linear 3s bg2447 infinite;
+  animation-delay: 9ms;
+  transform: translate3d(2.8125rem, 0.6875rem, 17.75rem) scale(0.2);
+}
+@keyframes bg2447 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(48) {
+  animation: linear 3s bg2448 infinite;
+  animation-delay: 193ms;
+  transform: translate3d(8.375rem, 13.1875rem, 14.125rem) scale(0.2);
+}
+@keyframes bg2448 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(49) {
+  animation: linear 3s bg2449 infinite;
+  animation-delay: 376ms;
+  transform: translate3d(3.5625rem, 8.875rem, 11.5rem) scale(0.2);
+}
+@keyframes bg2449 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(50) {
+  animation: linear 3s bg2450 infinite;
+  animation-delay: 235ms;
+  transform: translate3d(5.125rem, 2.9375rem, 7.875rem) scale(0.2);
+}
+@keyframes bg2450 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(51) {
+  animation: linear 3s bg2451 infinite;
+  animation-delay: 248ms;
+  transform: translate3d(2.25rem, 0.9375rem, 1.625rem) scale(0.2);
+}
+@keyframes bg2451 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(52) {
+  animation: linear 3s bg2452 infinite;
+  animation-delay: 385ms;
+  transform: translate3d(3.375rem, 6.25rem, 25.5625rem) scale(0.2);
+}
+@keyframes bg2452 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(53) {
+  animation: linear 3s bg2453 infinite;
+  animation-delay: 112ms;
+  transform: translate3d(3.125rem, 1.5625rem, 24.8125rem) scale(0.2);
+}
+@keyframes bg2453 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(54) {
+  animation: linear 3s bg2454 infinite;
+  animation-delay: 322ms;
+  transform: translate3d(6rem, 7.25rem, 12.0625rem) scale(0.2);
+}
+@keyframes bg2454 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(55) {
+  animation: linear 3s bg2455 infinite;
+  animation-delay: 221ms;
+  transform: translate3d(2.625rem, 10.3125rem, 15rem) scale(0.2);
+}
+@keyframes bg2455 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(56) {
+  animation: linear 3s bg2456 infinite;
+  animation-delay: 121ms;
+  transform: translate3d(1.25rem, 3.5625rem, 30.75rem) scale(0.2);
+}
+@keyframes bg2456 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(57) {
+  animation: linear 3s bg2457 infinite;
+  animation-delay: 435ms;
+  transform: translate3d(1.4375rem, 2rem, 6.375rem) scale(0.2);
+}
+@keyframes bg2457 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(58) {
+  animation: linear 3s bg2458 infinite;
+  animation-delay: 342ms;
+  transform: translate3d(7.375rem, 1.9375rem, 19.625rem) scale(0.2);
+}
+@keyframes bg2458 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(59) {
+  animation: linear 3s bg2459 infinite;
+  animation-delay: 455ms;
+  transform: translate3d(7.3125rem, 10.25rem, 21.875rem) scale(0.2);
+}
+@keyframes bg2459 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(60) {
+  animation: linear 3s bg2460 infinite;
+  animation-delay: 440ms;
+  transform: translate3d(2.75rem, 7.8125rem, 17.0625rem) scale(0.2);
+}
+@keyframes bg2460 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(61) {
+  animation: linear 3s bg2461 infinite;
+  animation-delay: 114ms;
+  transform: translate3d(1.1875rem, 4rem, 25.4375rem) scale(0.2);
+}
+@keyframes bg2461 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(62) {
+  animation: linear 3s bg2462 infinite;
+  animation-delay: 96ms;
+  transform: translate3d(4.25rem, 12.8125rem, 28.625rem) scale(0.2);
+}
+@keyframes bg2462 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(63) {
+  animation: linear 3s bg2463 infinite;
+  animation-delay: 118ms;
+  transform: translate3d(2.8125rem, 13.625rem, 26.75rem) scale(0.2);
+}
+@keyframes bg2463 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(64) {
+  animation: linear 3s bg2464 infinite;
+  animation-delay: 447ms;
+  transform: translate3d(1.0625rem, 5.9375rem, 12.25rem) scale(0.2);
+}
+@keyframes bg2464 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(65) {
+  animation: linear 3s bg2465 infinite;
+  animation-delay: 320ms;
+  transform: translate3d(9.1875rem, 13.1875rem, 15rem) scale(0.2);
+}
+@keyframes bg2465 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(66) {
+  animation: linear 3s bg2466 infinite;
+  animation-delay: 498ms;
+  transform: translate3d(3.3125rem, 6.25rem, 12.375rem) scale(0.2);
+}
+@keyframes bg2466 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(67) {
+  animation: linear 3s bg2467 infinite;
+  animation-delay: 436ms;
+  transform: translate3d(7.1875rem, 10.5625rem, 29.25rem) scale(0.2);
+}
+@keyframes bg2467 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(68) {
+  animation: linear 3s bg2468 infinite;
+  animation-delay: 58ms;
+  transform: translate3d(1.6875rem, 3.0625rem, 18.0625rem) scale(0.2);
+}
+@keyframes bg2468 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(69) {
+  animation: linear 3s bg2469 infinite;
+  animation-delay: 251ms;
+  transform: translate3d(1.5625rem, 12.1875rem, 2.5625rem) scale(0.2);
+}
+@keyframes bg2469 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(70) {
+  animation: linear 3s bg2470 infinite;
+  animation-delay: 54ms;
+  transform: translate3d(2.0625rem, 5.5rem, 4.625rem) scale(0.2);
+}
+@keyframes bg2470 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(71) {
+  animation: linear 3s bg2471 infinite;
+  animation-delay: 477ms;
+  transform: translate3d(3.4375rem, 7.1875rem, 6.5rem) scale(0.2);
+}
+@keyframes bg2471 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(72) {
+  animation: linear 3s bg2472 infinite;
+  animation-delay: 315ms;
+  transform: translate3d(3.875rem, 1.4375rem, 19.75rem) scale(0.2);
+}
+@keyframes bg2472 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(73) {
+  animation: linear 3s bg2473 infinite;
+  animation-delay: 108ms;
+  transform: translate3d(0.0625rem, 0.375rem, 20.5625rem) scale(0.2);
+}
+@keyframes bg2473 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(74) {
+  animation: linear 3s bg2474 infinite;
+  animation-delay: 167ms;
+  transform: translate3d(3.8125rem, 12.4375rem, 11.875rem) scale(0.2);
+}
+@keyframes bg2474 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(75) {
+  animation: linear 3s bg2475 infinite;
+  animation-delay: 433ms;
+  transform: translate3d(5.4375rem, 5.5625rem, 11.8125rem) scale(0.2);
+}
+@keyframes bg2475 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(76) {
+  animation: linear 3s bg2476 infinite;
+  animation-delay: 367ms;
+  transform: translate3d(1.3125rem, 7.25rem, 6.625rem) scale(0.2);
+}
+@keyframes bg2476 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(77) {
+  animation: linear 3s bg2477 infinite;
+  animation-delay: 184ms;
+  transform: translate3d(5.8125rem, 5.5625rem, 16.8125rem) scale(0.2);
+}
+@keyframes bg2477 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(78) {
+  animation: linear 3s bg2478 infinite;
+  animation-delay: 53ms;
+  transform: translate3d(7.1875rem, 9.9375rem, 4.5rem) scale(0.2);
+}
+@keyframes bg2478 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(79) {
+  animation: linear 3s bg2479 infinite;
+  animation-delay: 325ms;
+  transform: translate3d(5.875rem, 1.4375rem, 0.4375rem) scale(0.2);
+}
+@keyframes bg2479 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(80) {
+  animation: linear 3s bg2480 infinite;
+  animation-delay: 181ms;
+  transform: translate3d(7.5625rem, 0.1875rem, 28.6875rem) scale(0.2);
+}
+@keyframes bg2480 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(81) {
+  animation: linear 3s bg2481 infinite;
+  animation-delay: 58ms;
+  transform: translate3d(4.3125rem, 1.9375rem, 20.4375rem) scale(0.2);
+}
+@keyframes bg2481 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(82) {
+  animation: linear 3s bg2482 infinite;
+  animation-delay: 255ms;
+  transform: translate3d(2.875rem, 11.6875rem, 19.625rem) scale(0.2);
+}
+@keyframes bg2482 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(83) {
+  animation: linear 3s bg2483 infinite;
+  animation-delay: 398ms;
+  transform: translate3d(2.1875rem, 7.125rem, 30.4375rem) scale(0.2);
+}
+@keyframes bg2483 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(84) {
+  animation: linear 3s bg2484 infinite;
+  animation-delay: 182ms;
+  transform: translate3d(7.375rem, 4.875rem, 25.125rem) scale(0.2);
+}
+@keyframes bg2484 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(85) {
+  animation: linear 3s bg2485 infinite;
+  animation-delay: 307ms;
+  transform: translate3d(1.625rem, 7.25rem, 2.8125rem) scale(0.2);
+}
+@keyframes bg2485 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(86) {
+  animation: linear 3s bg2486 infinite;
+  animation-delay: 164ms;
+  transform: translate3d(8.5625rem, 9.9375rem, 19.4375rem) scale(0.2);
+}
+@keyframes bg2486 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(87) {
+  animation: linear 3s bg2487 infinite;
+  animation-delay: 77ms;
+  transform: translate3d(3.1875rem, 0.5625rem, 10.5625rem) scale(0.2);
+}
+@keyframes bg2487 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(88) {
+  animation: linear 3s bg2488 infinite;
+  animation-delay: 155ms;
+  transform: translate3d(8.125rem, 7.1875rem, 26.6875rem) scale(0.2);
+}
+@keyframes bg2488 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(89) {
+  animation: linear 3s bg2489 infinite;
+  animation-delay: 361ms;
+  transform: translate3d(2.3125rem, 2.6875rem, 14.5rem) scale(0.2);
+}
+@keyframes bg2489 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(90) {
+  animation: linear 3s bg2490 infinite;
+  animation-delay: 140ms;
+  transform: translate3d(7.125rem, 12.0625rem, 6.75rem) scale(0.2);
+}
+@keyframes bg2490 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(91) {
+  animation: linear 3s bg2491 infinite;
+  animation-delay: 174ms;
+  transform: translate3d(0.9375rem, 0.4375rem, 6.375rem) scale(0.2);
+}
+@keyframes bg2491 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(92) {
+  animation: linear 3s bg2492 infinite;
+  animation-delay: 446ms;
+  transform: translate3d(2.5625rem, 6rem, 10.4375rem) scale(0.2);
+}
+@keyframes bg2492 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(93) {
+  animation: linear 3s bg2493 infinite;
+  animation-delay: 195ms;
+  transform: translate3d(4.4375rem, 7.5rem, 27.625rem) scale(0.2);
+}
+@keyframes bg2493 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(94) {
+  animation: linear 3s bg2494 infinite;
+  animation-delay: 187ms;
+  transform: translate3d(3.8125rem, 10.375rem, 5.875rem) scale(0.2);
+}
+@keyframes bg2494 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(95) {
+  animation: linear 3s bg2495 infinite;
+  animation-delay: 460ms;
+  transform: translate3d(3.5rem, 4.375rem, 28.3125rem) scale(0.2);
+}
+@keyframes bg2495 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(96) {
+  animation: linear 3s bg2496 infinite;
+  animation-delay: 345ms;
+  transform: translate3d(6.875rem, 1.3125rem, 12.9375rem) scale(0.2);
+}
+@keyframes bg2496 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(97) {
+  animation: linear 3s bg2497 infinite;
+  animation-delay: 117ms;
+  transform: translate3d(7.8125rem, 4.4375rem, 16.375rem) scale(0.2);
+}
+@keyframes bg2497 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(98) {
+  animation: linear 3s bg2498 infinite;
+  animation-delay: 1ms;
+  transform: translate3d(9.1875rem, 1.875rem, 19.8125rem) scale(0.2);
+}
+@keyframes bg2498 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(99) {
+  animation: linear 3s bg2499 infinite;
+  animation-delay: 38ms;
+  transform: translate3d(5.8125rem, 1.875rem, 5.75rem) scale(0.2);
+}
+@keyframes bg2499 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
+body main .bg-component-wrapper .right .bg-components {
+  position: absolute;
+}
+body main .bg-component-wrapper .right .bg-components:nth-child(100) {
+  animation: linear 3s bg24100 infinite;
+  animation-delay: 272ms;
+  transform: translate3d(8.3125rem, 5.875rem, 26.8125rem) scale(0.2);
+}
+@keyframes bg24100 {
+  0%, 50%, 80%, 90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 187.5rem) translateY(-12.5rem);
+    opacity: 0;
+  }
+}
 body main .bg-component-wrapper > img {
   position: absolute;
   pointer-events: none;
@@ -349,80 +3655,6 @@ body main .bg-component-wrapper > .bg-gradient {
   left: 50%;
   transform: translate(-50%);
   opacity: 0.6;
-}
-@keyframes bg_gradient {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1.5);
-  }
-}
-body main .bg-component-wrapper .cube_lime {
-  width: 100%;
-  top: -1.25rem;
-  overflow: hidden;
-  left: 0;
-  animation: linear 120s bg infinite alternate;
-}
-@keyframes bg {
-  from {
-    transform: rotate(360deg) translateY(-13.125rem);
-  }
-  to {
-    transform: rotate(0) translateY(0);
-  }
-}
-body main .bg-component-wrapper .cube_lime2 {
-  width: 100%;
-  top: -12.25rem;
-  overflow: hidden;
-  left: 0;
-  animation: linear 120s bg2 infinite alternate;
-}
-@keyframes bg2 {
-  from {
-    transform: rotate(0) translateY(0);
-    opacity: 0.6;
-  }
-  to {
-    transform: scale(1.1) rotate(160deg) translateY(-13.125rem);
-    opacity: 1;
-  }
-}
-body main .bg-component-wrapper .cube_purple {
-  width: 100%;
-  left: 0;
-  top: 0.625rem;
-  animation: linear 120s bg infinite alternate;
-}
-body main .bg-component-wrapper .cube_purple2 {
-  width: 100%;
-  left: 0;
-  top: 0;
-  animation: linear 120s bg3 infinite alternate;
-}
-@keyframes bg3 {
-  from {
-    transform: rotate(0) translateY(0);
-    opacity: 0.6;
-  }
-  to {
-    transform: scale(1.1) rotate(30deg) translateY(-13.125rem);
-    opacity: 1;
-  }
-}
-body main .bg-component-wrapper .cube_red {
-  width: 100%;
-  top: 0;
-  left: 0;
-  animation: linear 120s bg infinite alternate;
-}
-body main .bg-component-wrapper .cube_red2 {
-  width: 100%;
-  top: 0;
-  left: 0;
-  animation: linear 120s bg infinite alternate;
 }
 
 /*# sourceMappingURL=main.css.map */
